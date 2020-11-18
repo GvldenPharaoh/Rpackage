@@ -1,0 +1,13 @@
+Package: isaiahpackage
+Type: Package
+Title: This package will hold functions for Stats
+Version: 0.1.0
+Author: Isaiah Pugh 
+Maintainer: Isaiah Pugh <itp@ou.edu>
+Description: This package will serve as a "closet" for all things R !
+License: MIT + File LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)

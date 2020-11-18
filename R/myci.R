@@ -11,6 +11,6 @@ myci = function(x)
   x
   mp <- c(-1,1)
   t <- qt(1-0.05/2,25-1)
-  ci <- mean(x)+ mp*t*sd(d)/sqrt(25)
+  ci <- mean(x)+ mp*t*sd(x)/sqrt(25)
   ci
 }
