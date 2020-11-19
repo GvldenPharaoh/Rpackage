@@ -9,7 +9,7 @@ myboot2(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5, ...)
 \arguments{
 \item{iter}{- population for samples}
 
-\item{x}{- sample}
+\item{x}{- sample of numbers}
 
 \item{fun}{- mean median sd, etc}
 

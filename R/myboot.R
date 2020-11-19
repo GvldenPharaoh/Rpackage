@@ -2,7 +2,7 @@
 #' myboot2 function
 #'
 #' @param iter - population for samples
-#' @param x - sample
+#' @param x - sample of numbers
 #' @param fun - mean median sd, etc
 #' @param alpha - bootstrap interval
 #' @param cx - character expansion

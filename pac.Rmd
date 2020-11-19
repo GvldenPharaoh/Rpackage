@@ -1,0 +1,74 @@
+---
+title: "Isaiah's R package"
+author: "Isaiah Pugh"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: yes
+    toc_float: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+Congratulations for getting this far. To complete the evidence that you have made a working R package please answer the following by using the supplied rmd and upload the knitted html to CANVAS.
+
+I will assume your package is called **isaiahpackage** and you have packaged and documented functions `myboot`, `myci`, `mycltp` and `mydbinom`.
+
+
+# First function
+
+Please place your first function in the r chunk in the following way:
+
+Once you are ready please remove the option `eval = FALSE`
+
+```{r first, eval = FALSE}
+ddt = read.csv("DDT.csv")
+isaiahpackage::myboot2(x = ddt$DDT)
+```
+
+
+# Second function
+
+Please place your second function in the r chunk in the following way:
+
+Once you are ready please remove the option `eval = FALSE`
+
+```{r second, eval = FALSE}
+x = rnorm(30,mean=10,sd=12)
+isaiahpackage::myci(x)
+```
+
+
+# Third function
+
+Please place your third function in the r chunk in the following way:
+
+Once you are ready please remove the option `eval = FALSE`
+
+```{r third, eval = FALSE}
+isaiahpackage::mycltp(10,10000)
+```
+
+
+# Forth function
+
+Please place your forth function in the r chunk in the following way:
+
+Once you are ready please remove the option `eval = FALSE`
+
+```{r forth, eval = FALSE}
+isaiahpackage::mydbinom()
+```
+
+# The github repository
+
+
+
+This is the address of my GITHUB repository:
+<https://github.com/GvldenPharaoh/Rpackage.git>
+
+Replace this with your own address.

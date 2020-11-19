@@ -2,7 +2,7 @@
 % Please edit documentation in R/mycltp.R
 \name{mycltp}
 \alias{mycltp}
-\title{Poisson function}
+\title{Poisson function creating a histogram of the sample mean , barplot of the sampled y and probability function for the Poisson}
 \usage{
 mycltp(n, iter, lambda = 10, ...)
 }
@@ -14,10 +14,10 @@ mycltp(n, iter, lambda = 10, ...)
 \item{lambda}{}
 }
 \value{
-histogram of the mean on the sample
+histogram of the mean on the sample, barplot of the sampled y and probability function for the Poisson
 }
 \description{
-Poisson function
+Poisson function creating a histogram of the sample mean , barplot of the sampled y and probability function for the Poisson
 }
 \examples{
 c = mycltp(10,20,10000)

@@ -2,7 +2,7 @@
 #'
 #' @param a - vector quantities
 #' @param b - # of trials
-#' @param c - probability of sucess
+#' @param c - probability of success
 #'
 #' @return distribution
 #' @export

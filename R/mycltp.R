@@ -1,10 +1,11 @@
-#' Poisson function
+#' Poisson function creating a histogram of the sample mean , barplot of the sampled y and probability function for the Poisson
 #'
 #' @param n - sample size
 #' @param iter - # of iterations
 #' @param lambda
 #'
-#' @return histogram of the mean on the sample
+#' @return histogram of the mean on the sample, barplot of the sampled y and probability function for the Poisson
+#'
 #' @export
 #'
 #' @examples

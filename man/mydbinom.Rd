@@ -11,7 +11,7 @@ mydbinom(a, b, c)
 
 \item{b}{- # of trials}
 
-\item{c}{- probability of sucess}
+\item{c}{- probability of success}
 }
 \value{
 distribution
