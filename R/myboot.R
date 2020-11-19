@@ -1,4 +1,3 @@
-
 #' myboot2 function
 #'
 #' @param iter - population for samples
@@ -12,6 +11,8 @@
 #' @export
 #'
 #' @examples
+#' ddt = read.csv("DDT.csv")
+#'isaiahpackage::myboot2(x = ddt$DDT)
 myboot2<-function(iter=10000,x,fun="mean",alpha=0.05,cx=1.5,...){  #Notice where the ... is repeated in the code
   n=length(x)   #sample size
 

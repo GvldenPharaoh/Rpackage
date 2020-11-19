@@ -9,7 +9,8 @@
 #' @export
 #'
 #' @examples
-#' c = mycltp(10,20,10000)
+#' x = rnorm(30,mean=10,sd=12)
+#'isaiahpackage::myci(x)
 mycltp=function(n,iter,lambda=10,...){
 
   ## r-random sample from the Poisson

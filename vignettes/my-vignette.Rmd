@@ -1,5 +1,5 @@
 ---
-title: "my-vignette"
+title: "my-vignette, Isaiah Pugh,11/18/20 "
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{my-vignette}
@@ -17,3 +17,7 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(isaiahpackage)
 ```
+
+
+This package contains various functions needed to reproduce histograms, plots, confidence intervals, and density distributions useful and necessary for Math 4753 "Statistics"
+
