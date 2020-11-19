@@ -14,11 +14,11 @@ mydbinom(a, b, c)
 \item{c}{- probability of success on each trial}
 }
 \value{
-distribution
+density distributions
 }
 \description{
 Density distribution function
 }
 \examples{
-newdbinom <- mydbinom(some values)
+isaiahpackage::mydbinom(1:10,100,0.5)
 }

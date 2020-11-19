@@ -25,3 +25,7 @@ hist or list
 \description{
 myboot2 function
 }
+\examples{
+ddt = read.csv("DDT.csv")
+isaiahpackage::myboot2(x = ddt$DDT)
+}

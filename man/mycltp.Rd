@@ -20,5 +20,6 @@ histogram of the mean on the sample, barplot of the sampled y and probability fu
 Poisson function creating a histogram of the sample mean , barplot of the sampled y and probability function for the Poisson
 }
 \examples{
-c = mycltp(10,20,10000)
+x = rnorm(30,mean=10,sd=12)
+isaiahpackage::myci(x)
 }

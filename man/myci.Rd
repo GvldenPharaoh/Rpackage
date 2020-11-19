@@ -16,5 +16,6 @@ myci(x)
 myci
 }
 \examples{
-x = rnorm(30,mean=10,sd=12) myci(x)
+x = rnorm(30,mean=10,sd=12)
+myci(x)
 }
