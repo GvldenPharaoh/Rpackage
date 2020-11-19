@@ -9,9 +9,9 @@ mydbinom(a, b, c)
 \arguments{
 \item{a}{- vector quantities}
 
-\item{b}{- # of trials}
+\item{b}{- number of observations.}
 
-\item{c}{- probability of success}
+\item{c}{- probability of success on each trial}
 }
 \value{
 distribution

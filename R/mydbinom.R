@@ -1,8 +1,8 @@
 #' Density distribution function
 #'
 #' @param a - vector quantities
-#' @param b - # of trials
-#' @param c - probability of success
+#' @param b - number of observations.
+#' @param c - probability of success on each trial
 #'
 #' @return distribution
 #' @export
